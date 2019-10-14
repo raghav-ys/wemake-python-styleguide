@@ -50,7 +50,7 @@ class UselessOperatorsVisitor(base.BaseNodeVisitor):
         Checks numbers unnecessary operators inside the code.
 
         Raises:
-            UselessOperatorsViolation
+            UselesssOperatorsViolation
 
         """
         self._check_operator_count(node)
